@@ -10,23 +10,27 @@ Your final settings.txt will look something like this when you are finished:
 Wallpaper 1:
 
 //your parameter variables go here!
-let rect_width  = 20;
-let rect_height = 20;
-let paramter1 = 10;
-let paramter2 = true;
-let paramter3 = 50; 
-let paramter4 = 0; 
-let paramter5 = 60;
+
+let spirithead_width = 30;
+let grass_height = 20;
+let totorotummy_width = 70; //fat or slim totoro!
+let totorotummy_height = 75; //tall or short totoro!
+let drawspirit = true
+let drawleaf = true 
 
 function setup_wallpaper(pWallpaper) {
   pWallpaper.output_mode(GRID_WALLPAPER);
-  pWallpaper.resolution(NINE_LANDSCAPE);
+  pWallpaper.resolution(NINE_PORTRAIT);
   pWallpaper.show_guide(false); //set this to false when you're ready to print
 
   //Grid settings
-  pWallpaper.grid_settings.cell_width  = 100;
-  pWallpaper.grid_settings.cell_height = 100;
+  pWallpaper.grid_settings.cell_width  = 200;
+  pWallpaper.grid_settings.cell_height = 200;
   pWallpaper.grid_settings.row_offset  = 50;
+}
+
+function wallpaper_background() {
+  background(228, 229, 242); //pastel purple 
 }
 
 /////////////////////////////////
@@ -34,21 +38,126 @@ function setup_wallpaper(pWallpaper) {
 Wallpaper 2:
 
 //your parameter variables go here!
-let rect_width  = 10;
-let rect_height = 10;
-let paramter1 = 20;
-let paramter2 = false;
-let paramter3 = 50; 
-let paramter4 = 80; 
-let paramter5 = 30;
+
+let spirithead_width = 30;
+let grass_height = 30;
+let totorotummy_width = 75; //fat or slim totoro!
+let totorotummy_height = 70; //tall or short totoro!
+let drawspirit = false
+let drawleaf = true 
+let drawstars = true
 
 function setup_wallpaper(pWallpaper) {
   pWallpaper.output_mode(GRID_WALLPAPER);
-  pWallpaper.resolution(NINE_LANDSCAPE);
+  pWallpaper.resolution(NINE_PORTRAIT);
   pWallpaper.show_guide(false); //set this to false when you're ready to print
 
   //Grid settings
-  pWallpaper.grid_settings.cell_width  = 100;
-  pWallpaper.grid_settings.cell_height = 100;
-  pWallpaper.grid_settings.row_offset  = 0;
+  pWallpaper.grid_settings.cell_width  = 200;
+  pWallpaper.grid_settings.cell_height = 200;
+  pWallpaper.grid_settings.row_offset  = 50;
 }
+
+function wallpaper_background() {
+  background(228, 250, 254); //baby blue
+}
+
+/////////////////////////////////
+
+Wallpaper 3:
+
+//your parameter variables go here!
+
+let spirithead_width = 30;
+let grass_height = 30;
+let totorotummy_width = 65; //fat or slim totoro!
+let totorotummy_height = 70; //tall or short totoro!
+let drawspirit = false
+let drawleaf = false
+let drawstars = false
+// on line 71: fill(120, 140, 139); 
+
+function setup_wallpaper(pWallpaper) {
+  pWallpaper.output_mode(GLIDE_WALLPAPER);
+  pWallpaper.resolution(NINE_PORTRAIT);
+  pWallpaper.show_guide(false); //set this to false when you're ready to print
+
+  //Grid settings
+  pWallpaper.grid_settings.cell_width  = 200;
+  pWallpaper.grid_settings.cell_height = 200;
+  pWallpaper.grid_settings.row_offset  = 50;
+}
+
+function wallpaper_background() {
+  background(172, 197, 196); //mint green
+}
+
+/////////////////////////////////
+
+Wallpaper 4:
+
+//your parameter variables go here!
+
+let spirithead_width = 30;
+let grass_height = 30;
+let totorotummy_width = 75; //fat or slim totoro!
+let totorotummy_height = 70; //tall or short totoro!
+let drawspirit = false
+let drawleaf = true
+let drawstars = false
+// on line 71: fill(214, 234, 215); 
+
+function setup_wallpaper(pWallpaper) {
+  pWallpaper.output_mode(GRID_WALLPAPER);
+  pWallpaper.resolution(NINE_PORTRAIT);
+  pWallpaper.show_guide(false); //set this to false when you're ready to print
+
+  //Grid settings
+  pWallpaper.grid_settings.cell_width  = 200;
+  pWallpaper.grid_settings.cell_height = 200;
+  pWallpaper.grid_settings.row_offset  = 50;
+}
+
+function wallpaper_background() {
+  background(234, 216, 214); //salmon pink
+}
+
+/////////////////////////////////
+
+Wallpaper 5:
+
+//your parameter variables go here!
+
+let spirithead_width = 30;
+let grass_height = 10;
+let totorotummy_width = 75; //fat or slim totoro!
+let totorotummy_height = 60; //tall or short totoro!
+let drawspirit = true 
+let drawleaf = false
+let drawstars = false
+// on line 71: fill(148, 151, 128); 
+
+function setup_wallpaper(pWallpaper) {
+  pWallpaper.output_mode(GRID_WALLPAPER);
+  pWallpaper.resolution(NINE_PORTRAIT);
+  pWallpaper.show_guide(true); //set this to false when you're ready to print
+
+  //Grid settings
+  pWallpaper.grid_settings.cell_width  = 200;
+  pWallpaper.grid_settings.cell_height = 200;
+  pWallpaper.grid_settings.row_offset  = 50;
+}
+
+function wallpaper_background() {
+  background(142, 128, 151); //Royal purple
+}
+
+/////////////////////////////////
+
+Wallpaper 6:
+
+
+
+
+
+
