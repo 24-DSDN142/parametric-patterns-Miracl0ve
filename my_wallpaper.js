@@ -4,13 +4,13 @@ let grass_height = 20;
 let totorotummy_width = 70; //fat or slim totoro!
 let totorotummy_height = 75; 
 let drawspirit = true
-let drawleaf = true
+let drawleaf = true 
 let drawstars = true
-let drawgrass = true
-// on line 71: fill(193, 221, 220); 
+let drawgrass = true 
+// on line 71: fill(194, 223, 212)
 
 function setup_wallpaper(pWallpaper) {
-  pWallpaper.output_mode(GLIDE_WALLPAPER);
+  pWallpaper.output_mode(GRID_WALLPAPER);
   pWallpaper.resolution(A3);
   pWallpaper.show_guide(false); //set this to false when you're ready to print
 
@@ -21,7 +21,7 @@ function setup_wallpaper(pWallpaper) {
 }
 
 function wallpaper_background() {
-  background(172, 197, 196); //Mint Green 
+background(228, 229, 242); //pastel purple 
 }
 
 function my_symbol() { // do not rename this function. Treat this similarly to a Draw function
