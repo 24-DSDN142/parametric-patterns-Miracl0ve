@@ -15,6 +15,9 @@ let totorotummy_width = 70; //fat or slim totoro!
 let totorotummy_height = 75; 
 let drawspirit = true
 let drawleaf = true 
+let drawstars = true
+let drawgrass = true 
+// on line 71: fill(194, 223, 212)
 
 function setup_wallpaper(pWallpaper) {
   pWallpaper.output_mode(GRID_WALLPAPER);
@@ -28,7 +31,7 @@ function setup_wallpaper(pWallpaper) {
 }
 
 function wallpaper_background() {
-  background(228, 229, 242); //pastel purple 
+background(228, 229, 242); //pastel purple 
 }
 
 /////////////////////////////////
@@ -42,6 +45,8 @@ let totorotummy_height = 70;
 let drawspirit = false
 let drawleaf = true 
 let drawstars = true
+let drawgrass = true
+// on line 71: fill(221, 239, 236)
 
 function setup_wallpaper(pWallpaper) {
   pWallpaper.output_mode(GRID_WALLPAPER);
@@ -69,6 +74,7 @@ let totorotummy_height = 75;
 let drawspirit = false
 let drawleaf = true
 let drawstars = true
+let drawgrass = false
 // on line 71: fill(193, 221, 220); 
 
 function setup_wallpaper(pWallpaper) {
@@ -97,6 +103,7 @@ let totorotummy_height = 80;
 let drawspirit = false 
 let drawleaf = true
 let drawstars = false
+let drawgrass = true
 // on line 71: fill(184, 202, 151); 
 
 function setup_wallpaper(pWallpaper) {
@@ -125,6 +132,7 @@ let totorotummy_height = 60;
 let drawspirit = true 
 let drawleaf = false
 let drawstars = false
+let drawgrass = true
 // on line 71: fill(148, 151, 128); 
 
 function setup_wallpaper(pWallpaper) {
@@ -153,6 +161,7 @@ let totorotummy_height = 80;
 let drawspirit = true 
 let drawleaf = false
 let drawstars = true
+let drawgrass = true
 // on line 71: fill(184, 202, 151); 
 
 function setup_wallpaper(pWallpaper) {
@@ -181,7 +190,7 @@ let totorotummy_height = 80;
 let drawspirit = true 
 let drawleaf = false
 let drawstars = true
-
+let drawgrass = false
 
 function setup_wallpaper(pWallpaper) {
   pWallpaper.output_mode(GLIDE_WALLPAPER);
@@ -209,6 +218,7 @@ let totorotummy_height = 50;
 let drawspirit = false 
 let drawleaf = true
 let drawstars = false
+let drawgrass = true
 // on line 71: fill(14, 12, 43); 
 
 function setup_wallpaper(pWallpaper) {
@@ -237,6 +247,7 @@ let totorotummy_height = 75;
 let drawspirit = true
 let drawleaf = true
 let drawstars = true
+let drawgrass = true
 // on line 71: fill(193, 221, 220); 
 
 function setup_wallpaper(pWallpaper) {
