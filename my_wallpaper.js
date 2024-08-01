@@ -1,18 +1,18 @@
 //your parameter variables go here!
 
 let spirithead_width = 30;
-let grass_height = 10;
-let totorotummy_width = 75; //fat or slim totoro!
-let totorotummy_height = 60; //tall or short totoro!
-let drawspirit = true 
-let drawleaf = false
-let drawstars = false
-// on line 71: fill(148, 151, 128); 
+let grass_height = 20;
+let totorotummy_width = 70; //fat or slim totoro!
+let totorotummy_height = 75; 
+let drawspirit = true
+let drawleaf = true
+let drawstars = true
+// on line 71: fill(193, 221, 220); 
 
 function setup_wallpaper(pWallpaper) {
   pWallpaper.output_mode(GRID_WALLPAPER);
   pWallpaper.resolution(NINE_PORTRAIT);
-  pWallpaper.show_guide(true); //set this to false when you're ready to print
+  pWallpaper.show_guide(false); //set this to false when you're ready to print
 
   //Grid settings
   pWallpaper.grid_settings.cell_width  = 200;
@@ -21,8 +21,9 @@ function setup_wallpaper(pWallpaper) {
 }
 
 function wallpaper_background() {
-  background(142, 128, 151); //Royal purple
+  background(172, 197, 196); //Mint Green 
 }
+
 
 function my_symbol() { // do not rename this function. Treat this similarly to a Draw function
 
@@ -68,7 +69,7 @@ arc(175, 100, 40, 15, 165, PI + QUARTER_PI, PIE,);
 
 //grass
 stroke(127, 158, 110)
-fill(148, 151, 128);
+fill(193, 221, 220);
 rect(0, 140, 200, grass_height);
 
 //stars
